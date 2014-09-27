@@ -16,7 +16,7 @@ void insert_node (const int n, struct node **head){
 	struct node *copy = *head;
 	
 	if (*head == NULL){
-		*head = new;
+		head = new;
 	}
 	
 	else if ((*head)->next == NULL){
